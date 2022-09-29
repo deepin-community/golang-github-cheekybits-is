@@ -1,0 +1,26 @@
+golang-github-cheekybits-is (0.0~git20150225.0.68e9c06-3) unstable; urgency=medium
+
+  * debian/gbp.conf: Set debian-branch to debian/sid for DEP-14 conformance
+  * Set debian/watch to track git HEAD
+  * Update Maintainer email address to team+pkg-go@tracker.debian.org
+  * Bump debhelper dependency to "Build-Depends: debhelper-compat (= 12)"
+  * Bump Standards-Version to 4.5.0 (no change)
+  * Add "Rules-Requires-Root: no" to debian/control
+
+ -- Anthony Fok <foka@debian.org>  Sun, 01 Mar 2020 04:18:38 -0700
+
+golang-github-cheekybits-is (0.0~git20150225.0.68e9c06-2) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Anthony Fok ]
+  * Apply "cme fix dpkg" and bump Standards-Version to 4.1.4
+
+ -- Anthony Fok <foka@debian.org>  Tue, 10 Apr 2018 09:01:20 -0600
+
+golang-github-cheekybits-is (0.0~git20150225.0.68e9c06-1) unstable; urgency=medium
+
+  * Initial release (Closes: #870587)
+
+ -- Anthony Fok <foka@debian.org>  Wed, 02 Aug 2017 23:50:59 -0600
